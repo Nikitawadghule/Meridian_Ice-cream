@@ -1,0 +1,52 @@
+*
+{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body
+{
+    background-image: url("Fruit\ Overload.jpg");
+}
+
+.container 
+{
+    padding: 10px;
+}
+
+.container h2
+{
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+    text-align: center;   
+}
+
+.container .para
+{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.para1
+{
+    height: 105%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.para2
+{
+    height: 105%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    font-size: 1rem;
+}
+
+

@@ -1,0 +1,388 @@
+/* :root{
+    --red:#f81b1b;
+} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    /* overflow-x: hidden; */
+}
+
+/* section{
+    padding: 20rem 10%;
+} */
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f90202;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgb(235, 135, 135);
+}
+
+header .logo1
+{
+    font-size:  3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+header .logo2
+{
+    font-size: 2rem;
+    color: white;
+    font-weight:650;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .logo1 span
+{
+    color: var(--red);
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+header .navbar a
+{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color: rgb(94, 82, 82);
+}
+
+header .navbar a:hover
+{
+    color: greenyellow;
+}
+
+header #toggler
+{
+    display: none;
+
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.home
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Fruit\ Overload.jpg");
+    background-size: cover;
+}
+
+.content
+{
+    display: inline-block;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #f0dada;
+    line-height: 1.5;
+    height: 100%;
+}
+
+
+.content img
+{
+    height: 25rem;
+    width: 45%;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.home1
+{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("rainbow\ Cotton\ Candy.jpg");
+    background-size: cover;
+}
+
+.image
+{
+    image-rendering:pixelated;
+    width: 100% ;
+   
+}
+
+.gallery-item
+{
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+
+.para p
+{
+    padding: 15px;
+}
+
+.para
+{
+    padding-top: 90px;
+}
+
+/* footer */
+
+footer
+{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    color: white;
+    width: 100%;
+    background-color: #080808;
+}
+
+.logof
+{
+    color: white;
+    padding-left: 10px;
+}
+
+.logo1f
+{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.logo1f a
+{
+    color: white;
+}
+
+.logo2f a
+{
+    color: white;
+}
+
+.logo2f
+{   
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.logof img {
+  display: block;
+}
+
+.foot
+{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    padding: 10px;   
+}
+
+.foot .quick 
+{
+    padding: 5px;
+    margin: 5px; 
+}
+
+.foot .quick a
+{
+    color: white;
+}
+
+.copyrights
+{
+    margin: 10px;
+    font-size: 8px;
+}
+
+
+
+/* About US */
+
+.about
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("Sezller\ Brownie.jpg");
+    background-size: cover;
+    font-size: 1.8rem;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.about_content h1
+{
+    display: block;
+    text-align: center;
+    justify-items: center;
+}
+
+
+/* Contact Us */
+
+.contactus
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("walnul\ in\ dish.avif");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+}
+
+.contact h1
+{
+    font-size: 4rem;
+    display: block;
+    text-align: center;
+    justify-items: center;
+}
+
+.location
+{
+    height: 50px;
+    width: 80%;
+    margin: 50px;
+    font-size: 1.9rem;
+}
+
+.location a
+{
+    color: rgb(244, 173, 173);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px)
+{
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
+
+    .content
+    {
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width:768px)
+{
+    header .fa-bars
+    {
+        display: block;
+    }
+
+    header .navbar
+    {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0,100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar
+    {
+        clip-path: polygon(0 0,100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: 1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+}
+
+
+@media (max-width:450px)
+{
+    html{
+        font-size: 50%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+  .gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item {
+    width: calc(100% - 20px);
+  }
+}

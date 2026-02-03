@@ -1,0 +1,58 @@
+*
+{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+    
+}
+
+body{
+    margin: 0;
+}
+
+.cont {
+  margin: 0; /* Center it */
+  position:sticky ;
+}
+
+.cont h1
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+}
+
+.content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(83, 81, 81, 0.7); /* Black background with 0.5 opacity */
+  color: #ebebeb; /* Grey text */
+  width: 100%; /* Full width */
+  right: 0;
+  font-size: 20px;
+  top: 49px;
+  font-weight: 500;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(230, 63, 63, 0.5); /* Black background with 0.5 opacity */
+}
+
+h3
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
